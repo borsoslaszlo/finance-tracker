@@ -1,2 +1,8 @@
 rails new 
 rails generate controller welcome index
+
+Add devise gem to the gemfile.
+bundle install
+rails generate devise:install
+
+
