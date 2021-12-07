@@ -5,4 +5,17 @@ Add devise gem to the gemfile.
 bundle install
 rails generate devise:install
 
+laci:finance-tracker$ rails g devise User
+Running via Spring preloader in process 72590
+      invoke  active_record
+      create    db/migrate/20211207140104_devise_create_users.rb
+      create    app/models/user.rb
+      invoke    test_unit
+      create      test/models/user_test.rb
+      create      test/fixtures/users.yml
+      insert    app/models/user.rb
+       route  devise_for :users
+
+rails db:migrate
+
 
