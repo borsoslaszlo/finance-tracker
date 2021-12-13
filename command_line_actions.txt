@@ -25,6 +25,7 @@ Add gem 'devise-bootstrap-views','~>1.0' to the gemfile
 bundle install --without production 
 rails generate devise:views:bootstrap_templates
 
+-------------------------
 
 
 
